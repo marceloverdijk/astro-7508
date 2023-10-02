@@ -262,7 +262,7 @@
 }
 
 //Header sticky css
-@include media-breakpoint-up(xl){
+// @include media-breakpoint-up(xl){
   header.header-sticky-on {
     position: fixed;
     z-index: 1040;
@@ -283,7 +283,7 @@
   header.header-sticky-on .navbar-brand .navbar-brand-item {
     height: $navbar-brand-height-sticky;
   }
-}
+// }
 
 
 //Animation for fade in down
@@ -358,22 +358,22 @@
 .navbar-toggler .navbar-toggler-animation span:nth-child(3) {
   bottom: 10%;
 }
-.navbar-toggler[data-bs-toggle=collapse][aria-expanded=true] .navbar-toggler-animation span:nth-child(1) {
-  transform: rotateZ(45deg) translateY(-50%);
-  top: 49%;
-  transform-origin: 50% 0;
-  width: 100%;
-}
-.navbar-toggler[data-bs-toggle=collapse][aria-expanded=true] .navbar-toggler-animation span:nth-child(2) {
-  visibility: hidden;
-  transition: all 0s ease-in-out;
-}
-.navbar-toggler[data-bs-toggle=collapse][aria-expanded=true] .navbar-toggler-animation span:nth-child(3) {
-  transform: rotateZ(-45deg) translateY(-50%);
-  bottom: 42%;
-  transform-origin: 50% 0;
-  width: 100%;
-}
+// .navbar-toggler[data-bs-toggle=collapse][aria-expanded=true] .navbar-toggler-animation span:nth-child(1) {
+//   transform: rotateZ(45deg) translateY(-50%);
+//   top: 49%;
+//   transform-origin: 50% 0;
+//   width: 100%;
+// }
+// .navbar-toggler[data-bs-toggle=collapse][aria-expanded=true] .navbar-toggler-animation span:nth-child(2) {
+//   visibility: hidden;
+//   transition: all 0s ease-in-out;
+// }
+// .navbar-toggler[data-bs-toggle=collapse][aria-expanded=true] .navbar-toggler-animation span:nth-child(3) {
+//   transform: rotateZ(-45deg) translateY(-50%);
+//   bottom: 42%;
+//   transform-origin: 50% 0;
+//   width: 100%;
+// }
 
 
 // Notification icon

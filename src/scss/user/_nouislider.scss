@@ -1,0 +1,14 @@
+// 
+// nouislider.scss
+// Vendor style override and new style added
+
+.noUi-horizontal {
+  margin-top: 11px;
+  padding-left: 10px;
+  padding-right: 10px;
+
+  .noUi-handle {
+    cursor: default;
+    right: -10px;
+  }
+} 

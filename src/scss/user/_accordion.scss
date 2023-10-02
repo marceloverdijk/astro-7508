@@ -1,0 +1,19 @@
+// Collapse label
+
+.collapse-label {
+  &::after {
+    content: attr(data-bs-label-expanded);
+  }
+  // > [class^='fa-'],
+  // > [class*=' fa-'] {
+  //   transform: rotate(180deg);
+  //   transition: transform .2s ease-in-out;
+  // }
+  &.collapsed {
+    // > [class^='fa-'],
+    // > [class*=' fa-'] { transform: none; }  
+    &::after {
+      content: attr(data-bs-label-collapsed);
+    }
+  }
+}

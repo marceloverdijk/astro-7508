@@ -1,0 +1,12 @@
+.choices[data-type*=select-one] {
+  &:has(.form-select-sort) {
+    &:after {
+      content: "\F127";
+      font-family: 'bootstrap-icons';
+      background-image: none;
+      height: inherit;
+      width: inherit;
+      border: none;
+    }
+  }
+}
